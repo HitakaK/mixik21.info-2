@@ -21,6 +21,9 @@ Docker composeで4つのコンテナを立てる
 
 ### Next.jsコンテナ
 - Next.jsの静的配信できないやつ
+*備考*
+- Dockerfileを開発用と本番用の2種類作っている
+    - docker composeを作るときに参照先を指定
 
 ### Pythonコンテナ
 - FastAPI + uvicornでAPIを提供
